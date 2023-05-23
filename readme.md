@@ -34,6 +34,12 @@ vous pouvez lancer votre serveur avec la commande suivante :
 + Parameters
     + nb (number, optional) - combien de valeurs aleatoire faudra generer.
 
++ Exemple 
+
+    + /val
+    + /val?nb=10
+    
+
 + Request
 
     + Headers
@@ -59,6 +65,10 @@ un tableau de n valeurs entières aléatoires comprises en -1000 et +1000
     + n1 (number, required) - le premier nombre
     + n2 (number, required) - le deuxième nombre
 
++ Exemple 
+
+    + /calc/add?n1=10&n2=20
+
 + Request
 
     + Headers
@@ -83,6 +93,10 @@ un tableau de n valeurs entières aléatoires comprises en -1000 et +1000
 + Parameters
     + n1 (number, required) - le premier nombre
     + n2 (number, required) - le deuxième nombre
+
++ Exemple 
+
+    + /calc/prod?n1=10&n2=20
 
 + Request
 
@@ -145,6 +159,11 @@ un tableau de n valeurs entières aléatoires comprises en -1000 et +1000
     
             Content-Type: application/json
 
+
++ Exemple 
+
+    + /stations_velo/10/addr
+
 + Response 200 (application/json)
 
     + Attributes
@@ -156,6 +175,11 @@ un tableau de n valeurs entières aléatoires comprises en -1000 et +1000
 
 + Parameters
     + n (string) : l'id de la station
+
+
++ Exemple 
+
+    + /stations_velo/10/cap
 
 + Request
 
