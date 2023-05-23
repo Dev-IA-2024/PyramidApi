@@ -109,6 +109,11 @@ un tableau de n valeurs entières aléatoires comprises en -1000 et +1000
     + addr (boolean, optional) - si disponible, retourne l'address de la station.
     + cap (boolean, optional) - si disponible, retourne la capacity de la station.
 
++ Exemple 
+
+    + /stations_velo?id=10&addr
+    + /stations_velo?id=10&addr
+
 + Request
 
     + Headers
