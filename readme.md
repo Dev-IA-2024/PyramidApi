@@ -112,7 +112,7 @@ un tableau de n valeurs entières aléatoires comprises en -1000 et +1000
 + Exemple 
 
     + /stations_velo?id=10&addr
-    + /stations_velo?id=10&addr
+    + /stations_velo?id=10&cap
 
 + Request
 
